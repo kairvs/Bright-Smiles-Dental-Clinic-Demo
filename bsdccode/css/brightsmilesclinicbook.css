@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    min-width:600px;
+}
+.header{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#headerlogo{
+    height: 60px;
+    flex-shrink: 0;
+}
+#pagination{
+    background-image: linear-gradient(to right, #164396, #0d56dd);
+    display: flex;
+    column-gap: 14px;
+    width: 520px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:10px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+.page{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+.page:hover{
+    background-color: #2763d4;
+    border-radius: 30px;
+    border: 4px solid #2763d4;
+    transition-duration: 250ms;
+}
+.booknowbutton{
+    color: #164396;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#booknowbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #164396;
+    padding-right:10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    width: 120px;
+    height: 36px;
+    margin-bottom: 6px;
+}
+.booknowbutton:hover{
+    background-color: #2763d4;
+    border-radius: 30px;
+    border: 4px solid #2763d4;
+    transition-duration: 250ms;
+    color: white;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #164396, #0d56dd);
+}
+    #divcontact{
+        margin: 0px;
+        padding: 0px;
+    }
+    #h1contact{
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 52px;
+    }
+    #pcontact{
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 24px;
+    }
+#form{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 30px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    width: 1000px;
+}
+    #h1form{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 10px;
+        color: #164396;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 40px;
+    }
+    .fillupbox{
+        border-color: #164396;
+        border-radius: 14px;
+        width: 200px;
+        height: 28px;
+        color: #164396;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 14px;
+        padding: 2px;
+        padding-left: 6px;
+        margin-bottom: 10px;
+    }
+    #formlabel{
+        color: #164396;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+        .reset{
+        border-color: #164396;
+        background-color: #ffffff;
+        border-radius: 14px;
+        width: 100px;
+        height: 28px;
+        color: #164396;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 14px;
+        padding: 2px;
+        margin-right: 20px;
+    }
+        .reset:hover{
+            background-color: #164396;
+            color: white;
+            cursor: pointer;
+            transition-duration: 250ms;
+        }
+        .submit{
+        border-color: #164396;
+        background-color: #ffffff;
+        border-radius: 14px;
+        width: 100px;
+        height: 28px;
+        color: #164396;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 14px;
+        padding: 2px;
+    }
+        .submit:hover{
+            background-color: #164396;
+            color: white;
+            cursor: pointer;
+            transition-duration: 250ms;
+        }
+footer{
+    background-color: #164396;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#footerlogo{
+    height: 100px;
+    flex-shrink: 0;
+}
+#footermaintext{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#pfooter{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    }
